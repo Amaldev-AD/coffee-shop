@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COFFEE</title>
+        <!-- icon -->
+         <link rel="icon" type="image/jpg" href="./icon.jpg">
+
+
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+        <!-- boxicons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+        <!-- font awesom -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+        <style>
+            * {
+                font-family: "Black Ops One", system-ui;
+                margin: 0;
+                padding: 0;
+
+            }
+
+            /* .container{
+                text-align: center;
+            } */
+
+            .upper {
+   
+                position: relative;
+                top: 0;
+                justify-content: center;
+            }
+
+            .upper h1 {
+                font-size: 100px;
+                padding-top: 30px;
+            }
+
+            .upper img {
+                margin-top: 14px;
+                margin-left: 40px;
+                margin-right: 100px;
+
+            }
+
+
+            .stick {
+                display: flex;
+                justify-content: center;
+                position: sticky;
+                top: 0px;
+                z-index: 1000;
+                background-color: antiquewhite;
+
+            }
+
+            .sticky h6 {
+                font-size: 20px;
+            }
+
+            .banner_head span{
+                font-family: "Josefin Sans", sans-serif;
+                font-weight: 800;
+                font-size: larger;
+            }
+            .banner_content{
+                text-align: center;
+            }
+            .banner_head h1{
+                letter-spacing: 2px;
+                font-size: 64px;
+            }
+            .banner_para{
+                border: 1px solid black;
+                text-align: justify;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                
+            }
+            .banner_para p{
+                font-family: "Josefin Sans", sans-serif;
+                font-size: 20px;
+            }
+            .list_content  h1{
+                font-family: 'Shadows Into Light', cursive;
+                font-size: 60px;
+                text-align: center;
+                font-weight: 600;
+            }
+            .list_content p,ul,li,b{
+                font-family: "Josefin Sans", sans-serif;
+                font-size: 20px;
+            }
+            .list_content b{
+                font-size: 25px;
+            }
+            .brand h1{
+                font-family: 'Shadows Into Light', cursive;
+                font-size: 60px;
+                text-align: center;
+                font-weight: 600;
+            }
+            .brand-content{
+                display: flex;
+                margin-bottom: 30px;
+            }
+            .brand-content img{
+                width: 300px;
+                height: 300px;
+                border-radius: 20px;
+            }
+            .brandpara{
+                width: 900px;
+            }
+            .brand-content h3,p{
+                font-family: "Josefin Sans", sans-serif;
+            }
+            .brand-content h3{
+                font-weight: 600;
+                font-size: 30px;
+            }
+            .brand-content p{
+                font-size: 20px;
+                padding: 20px;
+            }
+            .img_gallery{
+                display: grid;
+                grid-template-columns: repeat(3, 10fr);
+                padding-left: 300px;
+                padding-right: 300px;
+                background-color: rgb(209, 173, 81);
+
+
+            }
+            .content3 h1{
+                text-align: center;
+                font-size: 60px;
+                margin: 30px;
+                margin-top: 100px;
+            }
+            .img_gallery img{
+                width: 300px;
+                height: 300px;
+
+                margin-top: 60px;
+                border-radius: 20px;
+                transition: all 0.3s ease;
+
+            }
+            .img_gallery img:hover{
+                box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.7);
+            }
+            .icon-headphone{
+                position: fixed;
+                top: 90%;
+                right: 4%;
+                z-index: 1000;
+            }
+
+
+            
+        </style>
+    </head>
+
+    <body style="background-color: rgb(180, 207, 137);">
+        <!-- header -->
+        <header class="bg-success">
+
+                <div class="upper d-flex ">
+                    <img class="" src="./coffe.webp" alt="" width="125px" height="125px">
+                    <h1 class="  ">BREW BEANS Co.</h1>
+                </div>
+            </header>
+ 
+            <div class="stick bg-success">
+                <h6 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Drink coffee,Live
+                    Foreever!!</h6>
+            </div>
+
+
+        <!-- banner -->
+        <section class="banner">
+            <div class="banner_content container">
+                <div class="banner_head">
+                    <h1 style="font-family: Josefin Sans" >Coffee tastes better when it is <span>strong!</span><br>
+                        <span>Do you agree?</span>
+                    </h1>
+                </div>
+                <div class="banner_para p-5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore voluptas reiciendis possimus saepe totam culpa molestias corporis fugit sint. Dignissimos dicta necessitatibus quam officiis. Neque cumque odit quis quia sequi!
+                    Ducimus cupiditate autem quos hic quo ea minus aperiam neque ab? Magni quis ratione, molestiae, rerum quia minima sit incidunt odio velit temporibus, placeat eligendi voluptas nobis repellat expedita fuga.
+                    Adipisci quaerat debitis cum voluptate incidunt ut sed iure perferendis est, harum iste numquam suscipit nesciunt, voluptatem perspiciatis omnis, aperiam blanditiis corporis. Eveniet, alias hic sapiente doloribus veniam incidunt beatae!
+                    Voluptates quam voluptatibus omnis, dolor unde repudiandae alias praesentium non, velit sapiente quasi atque. Eveniet error culpa, neque quisquam magni similique laborum adipisci, corrupti, tempore veritatis tempora? Mollitia, esse praesentium!</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <div class="icon-headphone">
+            <a href="#foot"><img src="https://brewscoffee.netlify.app/headset.webp" alt="" width="50px" height="50px"></a>
+        </div>
+
+        <section class="content1">
+            <div class="list_content container-fluid">
+                <h1>TYPES</h1>
+                <p>
+                    Coffee beans are the seeds of a fruit called a coffee cherry. Coffee cherries grow on
+                    coffee trees from a genus of plants called Coffea. There are a wide variety of species
+                    of coffee plants, ranging from shrubs to trees.
+                </p>
+                <ul>
+                    <li><b>Type of bean.</b>
+                        There are two main types of coffee species, Arabica and Robusta. Arabica originates from
+                        Ethiopia and produces a mild, flavorful tasting coffee. It is the most popular type worldwide.
+                        However, it is expensive to grow because the Arabica plant is sensitive to the environment,
+                        requiring shade, humidity, and steady temperatures between 60-75 degrees Fahrenheit.
+                        The Robusta coffee plant is more economical to grow because it is resistant to disease and
+                        survives in a wider range of temperatures between 65 - 97 degrees Fahrenheit. It can also
+                        withstand harsh climate changes such as variations in rainfall and strong sunlight.
+                    </li>
+                    <li><b>Type of roast.</b>
+                    Coffee beans start out green. They are roasted at a high heat to produce a chemical change
+                    that releases the rich aroma and flavor associate with coffee. They are then cooled and
+                    ground for brewing. Roasting levels range from light to medium to dark. The lighter the
+                    roast, lighter the color and roasted flavor and the higher its acidity and a bitter
+                    roasted flavor. The popular french roast is medium-dark
+                    </li>
+                    <li><b>Type of grind.</b>
+                        A medium grind is the most common and used for automatic drip coffee makers. A fine
+                        grind is used for deeper flavors like espresso, releases the oils, and a coarse grind
+                        is used in coffee presses.
+                    </li>
+                    <li><b>decaffeinated coffee.</b>
+                        This is an option for those who experience unpleasant side effects from caffeine.
+                        The two rnost cormon mnethods used to remove apply beans, caffeine regulations,
+                        which from at are coffee least then is 97% to of allowed the to chemical dry.
+                        caffeine The must solvents solvents be removed bind (methylene to to carry caffeine
+                        chloride the and Or both cthyl decaffeinated acctate) evaporate label, Or when carbon
+                        there the dioxide may beans be gas. are trace Both rinsed are residual andjor amounts
+                        dried. to of stcamed used According caffeine. or to soaked Both U.S. applied methods
+                        may cause somne loss of flavor as other naturally occurring chemicals in coffee beans
+                        that impart their unique flavor and scent may be destroyed during processing.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="content2">
+            <div class="brand container">
+                <h1>TOP BRANDS</h1>
+                <div class="brand-content">
+                    <div>
+                    <img src="https://brewscoffee.netlify.app/STARBUCKS.jpg" alt=""></div>
+                    <div class="brandpara" style="margin-left: 100px;">
+                        <h3>1.STARBUCKS</h3>
+                    <p style="text-align: justify; margin-left: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus unde nihil delectus perspiciatis. Quas tenetur pariatur adipisci, animi eligendi voluptatum nemo hic assumenda facilis rerum, nisi amet! Cumque, rerum vero.
+                    Nesciunt perferendis cumque voluptate quod quae, quasi, adipisci id, hic atque itaque laboriosam rem recusandae totam est facere ipsam in tempore quisquam beatae consequatur excepturi dolore aperiam commodi amet? Porro.</p></div>
+                </div>
+                <div class="brand-content">
+                    <div class="brandpara">
+                        <h3>2. Dunkin' Donuts</h3>
+                    <p style="text-align: justify; margin-left: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus unde nihil delectus perspiciatis. Quas tenetur pariatur adipisci, animi eligendi voluptatum nemo hic assumenda facilis rerum, nisi amet! Cumque, rerum vero.
+                    Nesciunt perferendis cumque voluptate quod quae, quasi, adipisci id, hic atque itaque laboriosam rem recusandae totam est facere ipsam in tempore quisquam beatae consequatur excepturi dolore aperiam commodi amet? Porro.</p></div>
+                    <div>
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.A1LaXB7aCDvKu1XLESKxIAD6D6&pid=Api&P=0" alt="" style="margin-left: 100px;"></div>
+                </div>
+                <div class="brand-content">
+                    <div>
+                    <img src="https://brewscoffee.netlify.app/PEET'S%20COFFEES.jpg" alt="" style="margin-right: 100px;"></div>
+                    <div class="brandpara">
+                        <h3>3.PEET'S COFFEE</h3>
+                    <p style="text-align: justify; margin-left: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus unde nihil delectus perspiciatis. Quas tenetur pariatur adipisci, animi eligendi voluptatum nemo hic assumenda facilis rerum, nisi amet! Cumque, rerum vero.
+                    Nesciunt perferendis cumque voluptate quod quae, quasi, adipisci id, hic atque itaque laboriosam rem recusandae totam est facere ipsam in tempore quisquam beatae consequatur excepturi dolore aperiam commodi amet? Porro.</p></div>
+                </div>
+                <div class="brand-content">
+                    <div class="brandpara">
+                        <h3>4. COSTA COFFEE</h3>
+                    <p style="text-align: justify; margin-left: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus unde nihil delectus perspiciatis. Quas tenetur pariatur adipisci, animi eligendi voluptatum nemo hic assumenda facilis rerum, nisi amet! Cumque, rerum vero.
+                    Nesciunt perferendis cumque voluptate quod quae, quasi, adipisci id, hic atque itaque laboriosam rem recusandae totam est facere ipsam in tempore quisquam beatae consequatur excepturi dolore aperiam commodi amet? Porro.</p></div>
+                    <div>
+                    <img src="https://brewscoffee.netlify.app/COSTA%20COFFEE.jpg" alt="" style="margin-left: 100px;"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="content3">
+            <h1>GALLERY</h1>
+            <div class="img_gallery pb-5">
+                <img src="https://brewscoffee.netlify.app/c5.jpg" alt="">
+                <img src="https://brewscoffee.netlify.app/c4.jpg" alt="">
+                <img src="https://brewscoffee.netlify.app/c6.jpg" alt="">
+                <img src="https://brewscoffee.netlify.app/c7.jpg" alt="">
+                <img src="https://brewscoffee.netlify.app/c3.jpg" alt="">
+                <img src="https://brewscoffee.netlify.app/c1.jpg" alt="">
+                <img src="https://brewscoffee.netlify.app/c8.jpg" alt="">
+                <img src="https://brewscoffee.netlify.app/c2.jpg" alt="">
+                <img src="https://brewscoffee.netlify.app/c9.jpg" alt="">
+            </div>
+        </section>
+
+
+        <section class="content4 mb-5">
+            <h1 class="p-3 mt-3" style="text-align: center; font-family: 'Shadows Into Light', cursive; font-weight: 900;" >HAVE SOME QUERY?</h1>
+
+            <div class="container p-5" style="border: 1px solid black; background-color: rgb(209, 173, 81);">
+                <div class="row m-3">
+                    <div class="col-2"></div>
+                    <div class="col-2" style="text-align: center;">Your Name:</div>
+                    <div class="col-5"><input type="text" class="form-control"></div>
+                    <div class="col-1"></div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row m-3">
+                    <div class="col-2"></div>
+                    <div class="col-2" style="text-align: center;">Your Email:</div>
+                    <div class="col-5"><input type="email" class="form-control"></div>
+                    <div class="col-1"></div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row m-3">
+                    <div class="col-2"></div>
+                    <div class="col-2" style="text-align: center;">Query:</div>
+                    <div class="col-5"><textarea name="" id="" cols="51" rows="6"></textarea></div>
+                    <div class="col-1"></div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row m-3">
+                    <div class="col-4"></div>
+                    <div class="col-2"><button class="btn btn-primary" type="submit" style=" font-family: 'Shadows Into Light', cursive;
+    ">SEND</button></div>
+                    <div class="col-6"></div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <footer class="d-flex pt-5 pb-5" id="foot" style="justify-content: space-around; background-color: rgb(209, 173, 81); position: relative; z-index: 1001;">
+            <div class="foot-img">
+                <img class="" src="./coffe.webp" alt="" width="125px" height="125px">
+
+            </div>
+            <div class="foot-social">
+                <table>
+                    <tr>
+                        <td  colspan="3">
+                            <h1 class="heading-type ft-h" style="margin-bottom:10px; margin-top: 10px; text-align: center;">Reach Us</h1>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><p class="pp"><i class="fa-brands fa-instagram"></i> Instagram &nbsp; </p></td>
+                        <td><p class="pp"><i class="fa-brands fa-facebook"></i>Facebook &nbsp;</p></td>
+                        <td><p class="pp"><i class="fa-brands fa-twitter"></i>Twitter &nbsp;</p></td>
+                    </tr>
+                    <!-- <tr>
+                        <td colspan="3"><p style="font-size: 13px;"><br></p></td>
+                    </tr> -->
+                    <tr>
+                        <td colspan="3" style="text-align: center;">© 2023 BREW BEANS Co.</td>
+                    </tr>
+                </table>
+            </div>
+            <div >
+                <h1>ADDRESS</h1>
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif;">13031 West Jefferson Boulevard, Suite 200
+                    <br> Los Angeles, CA, USA <br> 90094</p>
+                    <a href="#" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px; text-decoration: none; color: green;"> View directions</a>
+            </div>
+        </footer>
+    </body>
+
+    </html>
+</body>
+
+</html>
