@@ -32,7 +32,7 @@
         <!-- google fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@400..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
         <!-- font awesom -->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -57,7 +57,10 @@
             }
 
             .upper h1 {
+                font-family: "Abril Fatface", serif;
+                color: white;
                 font-size: 100px;
+                font-weight: 500;
                 padding-top: 30px;
             }
 
@@ -75,28 +78,30 @@
                 position: sticky;
                 top: 0px;
                 z-index: 1000;
-                background-color: antiquewhite;
+
 
             }
 
-            .sticky h6 {
+            .stick h6 {
                 font-size: 20px;
+                color: white;
             }
 
             .banner_head span{
-                font-family: "Josefin Sans", sans-serif;
-                font-weight: 800;
+                font-family: Abril Fatface, serif;
+                font-weight: 300;
                 font-size: larger;
+
             }
             .banner_content{
                 text-align: center;
             }
             .banner_head h1{
-                letter-spacing: 2px;
+                /* letter-spacing: 2px; */
                 font-size: 64px;
             }
             .banner_para{
-                border: 1px solid black;
+                border-radius: 20px;
                 text-align: justify;
                 margin-top: 50px;
                 margin-bottom: 50px;
@@ -110,7 +115,7 @@
                 font-family: 'Shadows Into Light', cursive;
                 font-size: 60px;
                 text-align: center;
-                font-weight: 600;
+                font-weight: 300;
             }
             .list_content p,ul,li,b{
                 font-family: "Josefin Sans", sans-serif;
@@ -148,6 +153,16 @@
                 font-size: 20px;
                 padding: 20px;
             }
+
+            .content3 h1{
+                text-align: center;
+                font-size: 60px;
+                padding: 20px;
+                padding-top: 30px;
+                margin-top: 100px;
+                position: relative;
+                bottom: -10px
+            }
             .img_gallery{
                 display: grid;
                 grid-template-columns: repeat(3, 10fr);
@@ -157,12 +172,7 @@
                 justify-content: center;
 
 
-            }
-            .content3 h1{
-                text-align: center;
-                font-size: 60px;
-                margin: 30px;
-                margin-top: 100px;
+
             }
             .img_gallery img{
                 width: 300px;
@@ -188,9 +198,9 @@
         </style>
     </head>
 
-    <body style="background-color: rgb(180, 207, 137);">
+    <body style="background-color: rgb(103, 255, 192);">
         <!-- header -->
-        <header class="bg-success">
+        <header class="bg-success" >
 
                 <div class="upper d-flex ">
                     <img class="" src="./coffe.webp" alt="" width="125px" height="125px">
@@ -198,7 +208,7 @@
                 </div>
             </header>
  
-            <div class="stick bg-success">
+            <div class="stick bg-success" >
                 <h6 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Drink coffee,Live
                     Foreever!!</h6>
             </div>
@@ -206,13 +216,13 @@
 
         <!-- banner -->
         <section class="banner">
-            <div class="banner_content container">
+            <div class="banner_content container mt-5" >
                 <div class="banner_head">
-                    <h1 style="font-family: Josefin Sans" >Coffee tastes better when it is <span>strong!</span><br>
+                    <h1 style="  font-family: Abril Fatface, serif;">Coffee tastes better when it is <span>strong!</span><br>
                         <span>Do you agree?</span>
                     </h1>
                 </div>
-                <div class="banner_para p-5">
+                <div class="banner_para p-5" style="background-color: rgb(215, 240, 172);">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore voluptas reiciendis possimus saepe totam culpa molestias corporis fugit sint. Dignissimos dicta necessitatibus quam officiis. Neque cumque odit quis quia sequi!
                     Ducimus cupiditate autem quos hic quo ea minus aperiam neque ab? Magni quis ratione, molestiae, rerum quia minima sit incidunt odio velit temporibus, placeat eligendi voluptas nobis repellat expedita fuga.
                     Adipisci quaerat debitis cum voluptate incidunt ut sed iure perferendis est, harum iste numquam suscipit nesciunt, voluptatem perspiciatis omnis, aperiam blanditiis corporis. Eveniet, alias hic sapiente doloribus veniam incidunt beatae!
@@ -227,14 +237,14 @@
         </div>
 
         <section class="content1">
-            <div class="list_content container-fluid">
-                <h1>TYPES</h1>
-                <p>
+            <div class="list_content container-fluid mt-5" style="margin-top: 200px;">
+                <h1 style="font-family: Abril Fatface, serif; margin-top: 100px; margin-bottom: 50px;">TYPES</h1>
+                <p class="ps-3 pe-3">
                     Coffee beans are the seeds of a fruit called a coffee cherry. Coffee cherries grow on
                     coffee trees from a genus of plants called Coffea. There are a wide variety of species
                     of coffee plants, ranging from shrubs to trees.
                 </p>
-                <ul>
+                <ul class="ps-5 pe-3">
                     <li><b>Type of bean.</b>
                         There are two main types of coffee species, Arabica and Robusta. Arabica originates from
                         Ethiopia and produces a mild, flavorful tasting coffee. It is the most popular type worldwide.
@@ -274,7 +284,7 @@
 
         <section class="content2">
             <div class="brand container">
-                <h1>TOP BRANDS</h1>
+                <h1 style="font-family: Abril Fatface, serif; margin-top: 100PX; margin-bottom: 90px;">TOP BRANDS</h1>
                 <div class="brand-content">
                     <div>
                     <img src="https://brewscoffee.netlify.app/STARBUCKS.jpg" alt=""></div>
@@ -312,8 +322,9 @@
         </section>
 
         <section class="content3">
-            <h1>GALLERY</h1>
-            <div class="img_gallery pb-5">
+            <h1 style="font-family: Abril Fatface, serif; background-color: rgb(215, 240, 172);" >GALLERY</h1>
+            <div class="img_gallery pb-5" style="background-color: rgb(215, 240, 172);">
+                
                 <img src="https://brewscoffee.netlify.app/c5.jpg" alt="">
                 <img src="https://brewscoffee.netlify.app/c4.jpg" alt="">
                 <img src="https://brewscoffee.netlify.app/c6.jpg" alt="">
@@ -327,10 +338,11 @@
         </section>
 
 
-        <section class="content4 mb-5">
-            <h1 class="p-3 mt-3" style="text-align: center; font-family: 'Shadows Into Light', cursive; font-weight: 900;" >HAVE SOME QUERY?</h1>
+        <section class="content4 ">
+            <div style="padding-top: 100px;">
+            <h1 class="p-3 mt-5" style="text-align: center; font-family: Abril Fatface, serif; font-weight: 900; margin-top: 100px;" >HAVE SOME QUERY?</h1></div>
 
-            <div class="container p-5" style="border: 1px solid black; background-color: rgb(209, 173, 81);">
+            <div class="container p-5" style=" background-color: rgb(215, 240, 172); border-radius: 20px;">
                 <div class="row m-3">
                     <div class="col-2"></div>
                     <div class="col-2" style="text-align: center;">Your Name:</div>
@@ -354,7 +366,7 @@
                 </div>
                 <div class="row m-3">
                     <div class="col-4"></div>
-                    <div class="col-2"><button class="btn btn-primary" type="submit" style=" font-family: 'Shadows Into Light', cursive;
+                    <div class="col-2"><button class="btn btn-success" type="submit" style=" font-family: 'Shadows Into Light', cursive;
     ">SEND</button></div>
                     <div class="col-6"></div>
 
@@ -365,7 +377,7 @@
         </section>
 
 
-        <footer class="d-flex pt-5 pb-5" id="foot" style="justify-content: space-around; background-color: rgb(209, 173, 81); position: relative; z-index: 1001;">
+        <footer class="d-flex pt-3 pb-5 bg-success" id="foot" style="margin-top: 100px; justify-content: space-around; position: relative; z-index: 1001;">
             <div class="foot-img">
                 <img class="" src="./coffe.webp" alt="" width="125px" height="125px">
 
@@ -374,28 +386,28 @@
                 <table>
                     <tr>
                         <td  colspan="3">
-                            <h1 class="heading-type ft-h" style="margin-bottom:10px; margin-top: 10px; text-align: center;">Reach Us</h1>
+                            <h1 class="heading-type ft-h" style="margin-bottom:10px; margin-top: 10px; text-align: center; color: white;">Reach Us</h1>
                         </td>
 
                     </tr>
                     <tr>
-                        <td><p class="pp"><i class="fa-brands fa-instagram"></i> Instagram &nbsp; </p></td>
-                        <td><p class="pp"><i class="fa-brands fa-facebook"></i>Facebook &nbsp;</p></td>
-                        <td><p class="pp"><i class="fa-brands fa-twitter"></i>Twitter &nbsp;</p></td>
+                        <td><p class="pp text-light"><i class="fa-brands fa-instagram"></i> Instagram &nbsp; </p></td>
+                        <td><p class="pp text-light"><i class="fa-brands fa-facebook"></i>Facebook &nbsp;</p></td>
+                        <td><p class="pp text-light"><i class="fa-brands fa-twitter"></i>Twitter &nbsp;</p></td>
                     </tr>
                     <!-- <tr>
                         <td colspan="3"><p style="font-size: 13px;"><br></p></td>
                     </tr> -->
                     <tr>
-                        <td colspan="3" style="text-align: center;">© 2023 BREW BEANS Co.</td>
+                        <td colspan="3" style="text-align: center;" class="text-light">© 2023 BREW BEANS Co.</td>
                     </tr>
                 </table>
             </div>
             <div >
-                <h1>ADDRESS</h1>
-                <p style="font-family: Georgia, 'Times New Roman', Times, serif;">13031 West Jefferson Boulevard, Suite 200
+                <h1 class="text-light">ADDRESS</h1>
+                <p class="text-light" style="font-family: Georgia, 'Times New Roman', Times, serif;">13031 West Jefferson Boulevard, Suite 200
                     <br> Los Angeles, CA, USA <br> 90094</p>
-                    <a href="#" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px; text-decoration: none; color: green;"> View directions</a>
+                    <a href="#" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px; text-decoration: none; color: white;"> View directions</a>
             </div>
         </footer>
     </body>
